@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+/* Logo Color - #1A5085 */
+.font-poppins{
+  font-family: 'Poppins', sans-serif;
+}
+.manager-input .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input{
+  border-radius: 0.75rem !important;
+}
+.manager-input .css-1pysi21-MuiFormLabel-root-MuiInputLabel-root{
+  /* font-size: 12px; */
+}
