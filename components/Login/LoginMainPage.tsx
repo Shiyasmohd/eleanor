@@ -2,8 +2,8 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { motion } from 'framer-motion';
 import Head from 'next/head';
 import Image from 'next/image';
-// import Logo from '../../public/logo.png';
-// import styles from './Login.module.css';
+import Logo from '../../public/logo.png';
+import styles from './Login.module.css';
 
 const LoginMainPage = () => {
 	const container = {
