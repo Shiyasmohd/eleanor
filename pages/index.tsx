@@ -1,4 +1,5 @@
 import React from 'react';
+import HomeUser from '../components/HomeUser/HomeUser';
 import { useArcanaAuth } from '../hooks/useArcanaAuth';
 
 interface ArcanaAuthWithCallableConnect {
@@ -49,7 +50,7 @@ export default function Main() {
 							</button>
 						</>
 					)}
-					{!loading && isLoggedIn && <div>Logged in as {user && user['email']}</div>}
+					{!loading && isLoggedIn && <HomeUser/>}
 				</div>
 			</div>
 		</div>
