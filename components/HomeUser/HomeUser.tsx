@@ -25,7 +25,7 @@ export default function HomeUser(){
     return(
         <div className="w-full h-screen">
             <h2 className="text-2xl">
-                Previous Records
+                Patient - Previous Records
             </h2>
 
             <div className="grid grid-cols-2 gap-6 mt-8">
