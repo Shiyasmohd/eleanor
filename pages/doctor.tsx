@@ -2,6 +2,7 @@ import { Input } from "@nextui-org/react";
 import { Disease } from "../components/HomeUser/HomeUser";
 import PatientCard from "../components/HomeUser/PatientCard";
 import { Chat } from "@pushprotocol/uiweb";
+import IFPSUploadForm from "../components/Form/IPFSUploadForm";
 
 export default function Doctor() {
   const disease: Disease[] = [
@@ -48,6 +49,7 @@ export default function Doctor() {
                 />
               ))}
             </div>
+            <IFPSUploadForm />
           </div>
         </div>
       </div>
