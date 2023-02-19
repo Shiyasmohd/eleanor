@@ -30,7 +30,11 @@ export default function Doctor() {
               <Input placeholder="Enter address" />
               <button className="bg-[#0072f5] text-white px-4 rounded-lg">
                 Search Patient
-              </button>
+              </button> 
+              <button className="bg-[#0072f5] text-white px-4 rounded-lg">
+                Add New Record
+              </button> 
+
             </div>
 
             <h2 className="text-xl mt-8">Patient Details</h2>
