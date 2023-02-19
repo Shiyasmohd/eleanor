@@ -1,3 +1,4 @@
+import { ConnectButton,getWalletConnectConnector, useAccountModal } from '@rainbow-me/rainbowkit'
 import React from 'react';
 import HomeUser from '../components/HomeUser/HomeUser';
 import { useArcanaAuth } from '../hooks/useArcanaAuth';
@@ -48,6 +49,9 @@ export default function Main() {
 							>
 								Connect
 							</button>
+							<div className="w-full mt-4 flex justify-center items-center">
+								<ConnectButton/>
+							</div>
 						</>
 					)}
 					{!loading && isLoggedIn && <HomeUser/>}
