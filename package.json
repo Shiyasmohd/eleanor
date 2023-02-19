@@ -25,6 +25,7 @@
     "eslint-config-next": "13.0.6",
     "ethers": "^5.7.2",
     "framer-motion": "^7.6.19",
+    "ipfs-http-client": "^60.0.0",
     "next": "13.0.6",
     "nextjs-progressbar": "^0.0.16",
     "qrcode": "^1.5.1",
