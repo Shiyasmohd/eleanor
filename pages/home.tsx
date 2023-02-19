@@ -2,6 +2,7 @@ import { ConnectButton,getWalletConnectConnector, useAccountModal } from '@rainb
 import React from 'react';
 import HomeUser from '../components/HomeUser/HomeUser';
 import { useArcanaAuth } from '../hooks/useArcanaAuth';
+import { Chat } from "@pushprotocol/uiweb";
 
 interface ArcanaAuthWithCallableConnect {
 	connect: () => Promise<void>;
@@ -43,6 +44,13 @@ export default function Main() {
 					<HomeUser/>
 				</div>
 			</div>
+			<Chat
+        account="0x7ffC260ef58905e9a8F462a4C9b838c21352FF90" //user address
+        supportAddress="0xd9c1CCAcD4B8a745e191b62BA3fcaD87229CB26d" //support address
+        apiKey="xkxLiG74pc.A3n2bD4wWFNafRerPJSx1qj2KMRnmhuoFgsxCJIOzRezxmCgmv5Xc7bqhKLRCTVQ"
+        modalTitle="Help line"
+        env="staging"
+      />
 		</div>
 	);
 }
